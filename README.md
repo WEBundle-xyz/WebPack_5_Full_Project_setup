@@ -1,4 +1,4 @@
-### WebPack5
+### WebPack5 and React.js
 
 #### Full Project Setup
 
@@ -16,7 +16,7 @@
 
 [6 - Added css-loader / mini-css-extract-pluggin ](../../tree/91e843204e3668e503e446f720cedf47f8b1633e/)
 
-[7 - Empty ](../../tree//)
+[7 - Installed react and react-dom ](../../tree/c7efce0df06a4cbda62650c119adffbacc6d4844/)
 
 [8 - Empty ](../../tree//)
 
@@ -26,10 +26,3 @@
 
 [11 - Empty ](../../tree//)
 
-[12 - Empty ](../../tree//)
-
-[13 - Empty ](../../tree//)
-
-[14 - Empty ](../../tree//)
-
-[15 - Empty ](../../tree//)
