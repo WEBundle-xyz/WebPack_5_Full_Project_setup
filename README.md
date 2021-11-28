@@ -10,7 +10,7 @@
 
 [3 -  Created webpack.config.js ](../../tree/aad94773f001709e8d66eaadfc156f852c9768f4/)
 
-[4 - Empty ](../../tree//)
+[4 -  Installed babel-loader @babel/core @babel/preset-env ](../../tree/79eee78116406669ed1e8a9dacb7c2b0c1bf96ca/)
 
 [5 - Empty ](../../tree//)
 

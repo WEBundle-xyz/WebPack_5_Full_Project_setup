@@ -1,14 +1,20 @@
 const path = require('path');
 
+let mode = 'development';
+
+if (process.env.NODE_ENV === 'production') {
+	mode = 'production';
+}
+
 module.exports = {
-	mode: 'none',
+	mode: mode,
 	output: {
 		path: path.join(__dirname, '/dist'),
 		filename: 'main.js',
 	},
-  devtool: false,
+	devtool: 'source-map',
 	devServer: {
-    contentBase: './dist'
+		// contentBase: './dist'
 		// port: 8080,
 	},
 	module: {
