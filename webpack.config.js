@@ -14,7 +14,8 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, '/dist'),
-		filename: 'main.js',
+		filename: '[name].bundle.js',
+		// clear: true,
 	},
 	devtool: 'source-map',
 	devServer: {

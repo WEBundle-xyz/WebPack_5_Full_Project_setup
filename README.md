@@ -14,7 +14,7 @@
 
 [5 - Babel config, npm run build, main.js.map ](../../tree/fe4c35006b078815b2cb560d7582979a72be4a5c/)
 
-[6 - Empty ](../../tree//)
+[6 - Added css-loader / mini-css-extract-pluggin ](../../tree/91e843204e3668e503e446f720cedf47f8b1633e/)
 
 [7 - Empty ](../../tree//)
 

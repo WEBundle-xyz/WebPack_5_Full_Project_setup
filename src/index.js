@@ -1,4 +1,8 @@
+import { render } from 'react-dom';
+
 import './styles/index.css';
+
+render(<h1>Hi React</h1>, document.getElementById('root'));
 
 const carsFormula1 = {
 	redbull: 23,
