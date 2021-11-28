@@ -1,7 +1,7 @@
 import React from 'react';
 
-import myImage from './images/boostimgtest.png';
-import '../styles/index.css';
+import myImage from './boostimgtest.png';
+import './index.css';
 
 const App = () => {
 	return (

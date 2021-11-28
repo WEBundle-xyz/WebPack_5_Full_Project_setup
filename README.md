@@ -22,4 +22,10 @@
 
 [9 - Installed the html-webpack-plugin ](../../tree/0f93e1b0e1db5cf244b653021ed56cebd9fc0b72/)
 
-[10 - Empty ](../../tree//)
+[10 -Installed the clean-webpack-plugin ](../../tree/f42ccd8b60be33afd91c6b8c3a9cd0cd32c75daa/)
+
+[11 - Empty ](../../tree//)
+
+[12 - Empty ](../../tree//)
+
+[13 - Empty ](../../tree//)

@@ -6,42 +6,38 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 let mode = 'development';
 
-if (process.env.NODE_ENV === 'production') {
-	mode = 'production';
-}
-
 module.exports = {
 	mode: mode,
 	entry: {
 		main: path.resolve(__dirname, 'src/index.js'),
 	},
 	output: {
-		path: path.join(__dirname, '/dist'),
-		filename: '[name].index.js',
-		// clear: true,
+		path: path.join(__dirname, '/prod'),
+		filename: '[name].[contenthash].js',
+		assetModuleFilename: '[name][text]',
+		clean: true,
 	},
-	devtool: 'source-map',
+	devtool: 'inline-source-map',
 	devServer: {
-		// contentBase: './dist',
-		hot: true,
-		// port: 8080,
+		static: {
+			directory: path.resolve(__dirname, 'prod'),
+		},
+		compress: true,
+		port: 8080,
 	},
 	module: {
 		rules: [
-			{
-				test: /\.css$/i,
-				use: [MiniCssExtractPlugin.loader, 'css-loader'],
-			},
+			{ test: /\.css$/, use: ['style-loader', 'css-loader'] },
+			{ test: /\.(svg|ico|png|webp|jpg|gif|jpeg)$/, type: 'asset/resource' },
 			{
 				test: /\.js$/,
 				exclude: /node_module/,
 				use: {
 					loader: 'babel-loader',
+					options: {
+						presets: ['@babel/preset-env'],
+					},
 				},
-			},
-			{
-				test: /\.(svg|png)$/,
-				type: 'asset/resource',
 			},
 		],
 	},
@@ -52,6 +48,7 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: 'This file has been created with WebPack',
 			filename: 'inbox.html',
+			template: path.resolve(__dirname, 'src/index.html'),
 		}),
 	],
 };
