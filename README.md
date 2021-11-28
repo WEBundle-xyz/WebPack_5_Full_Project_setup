@@ -6,7 +6,7 @@
 
 [1 - Project setup ](../../tree/9dace993e0bfa10b400b6756f360bb11ed189aa3/)
 
-[2 - Empty ](../../tree//)
+[2 - Initial WebPack Setup ](../../tree/852774696c19b3cf88b09d4a1c9025393cecc047/)
 
 [3 - Empty ](../../tree//)
 
