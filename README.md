@@ -1,4 +1,4 @@
-### WebPack5 and React.js
+### WebPack-5 and React.js
 
 #### Full Project Setup
 
@@ -18,11 +18,8 @@
 
 [7 - Installed react and react-dom ](../../tree/c7efce0df06a4cbda62650c119adffbacc6d4844/)
 
-[8 - Empty ](../../tree//)
+[8 - Webpasck and module-rules-images ](../../tree/67a0685dc29dec74a57deb18fa4ef9877319e357/)
 
 [9 - Empty ](../../tree//)
 
 [10 - Empty ](../../tree//)
-
-[11 - Empty ](../../tree//)
-

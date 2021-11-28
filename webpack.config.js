@@ -1,5 +1,6 @@
 const path = require('path');
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 let mode = 'development';
 
@@ -14,7 +15,7 @@ module.exports = {
 	},
 	output: {
 		path: path.join(__dirname, '/dist'),
-		filename: '[name].bundle.js',
+		filename: '[name].index.js',
 		// clear: true,
 	},
 	devtool: 'source-map',
@@ -43,5 +44,11 @@ module.exports = {
 		],
 	},
 
-	plugins: [new MiniCssExtractPlugin()],
+	plugins: [
+		new MiniCssExtractPlugin(),
+		new HtmlWebpackPlugin({
+			title: 'This file has been created with WebPack',
+			filename: 'inbox.html',
+		}),
+	],
 };
