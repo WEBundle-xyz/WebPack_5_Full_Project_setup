@@ -20,6 +20,6 @@
 
 [8 - Webpasck and module-rules-images ](../../tree/67a0685dc29dec74a57deb18fa4ef9877319e357/)
 
-[9 - Empty ](../../tree//)
+[9 - Installed the html-webpack-plugin ](../../tree/0f93e1b0e1db5cf244b653021ed56cebd9fc0b72/)
 
 [10 - Empty ](../../tree//)

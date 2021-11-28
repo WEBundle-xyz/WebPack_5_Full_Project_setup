@@ -2,6 +2,8 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 let mode = 'development';
 
 if (process.env.NODE_ENV === 'production') {
@@ -45,6 +47,7 @@ module.exports = {
 	},
 
 	plugins: [
+		new CleanWebpackPlugin(),
 		new MiniCssExtractPlugin(),
 		new HtmlWebpackPlugin({
 			title: 'This file has been created with WebPack',
