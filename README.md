@@ -8,7 +8,7 @@
 
 [2 - Initial WebPack Setup ](../../tree/852774696c19b3cf88b09d4a1c9025393cecc047/)
 
-[3 - Empty ](../../tree//)
+[3 -  Created webpack.config.js ](../../tree/aad94773f001709e8d66eaadfc156f852c9768f4/)
 
 [4 - Empty ](../../tree//)
 

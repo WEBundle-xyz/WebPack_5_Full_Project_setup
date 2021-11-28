@@ -1,12 +1,25 @@
 const path = require('path');
 
 module.exports = {
-	// configuration.mode: 'developemnt',
+	mode: 'none',
 	output: {
 		path: path.join(__dirname, '/dist'),
 		filename: 'main.js',
 	},
+  devtool: false,
 	devServer: {
-		port: 8080,
+    contentBase: './dist'
+		// port: 8080,
+	},
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_module/,
+				use: {
+					loader: 'babel-loader',
+				},
+			},
+		],
 	},
 };
